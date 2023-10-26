@@ -1,0 +1,12 @@
+body{
+    background-color: #485bff;
+}
+.con{
+    min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+    min-width:300px;
+}

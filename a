@@ -1,0 +1,9 @@
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    token VARCHAR(255) NOT NULL,
+    token_expire DATETIME NOT NULL,
+    status ENUM('active', 'inactive') NOT NULL,
+    date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
